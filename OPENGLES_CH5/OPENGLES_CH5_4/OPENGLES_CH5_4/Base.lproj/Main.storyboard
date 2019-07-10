@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GLKView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3Vc-Ch-LbB">
+                                <rect key="frame" x="26" y="513" width="72" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="aXs-Sr-XBo"/>
+                                    <constraint firstAttribute="width" constant="72" id="hli-gl-bQ2"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="T"/>
+                                    <segment title="R"/>
+                                    <segment title="S"/>
+                                </segments>
+                                <connections>
+                                    <action selector="takeTransform1TypeFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="yu3-tp-nVp"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="x9N-y7-Hix">
+                                <rect key="frame" x="26" y="566" width="72" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="LBT-Gh-0PP"/>
+                                    <constraint firstAttribute="width" constant="72" id="utt-kx-vm9"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="T"/>
+                                    <segment title="R"/>
+                                    <segment title="S"/>
+                                </segments>
+                                <connections>
+                                    <action selector="takeTransform2TypeFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="JvJ-cu-eDC"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="oc9-BC-DpA">
+                                <rect key="frame" x="26" y="619" width="72" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="HRb-wi-qso"/>
+                                    <constraint firstAttribute="height" constant="28" id="kYa-iP-GNp"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="T"/>
+                                    <segment title="R"/>
+                                    <segment title="S"/>
+                                </segments>
+                                <connections>
+                                    <action selector="takeTransform3TypeFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="PZ1-19-VVz"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xow-cs-ubx">
+                                <rect key="frame" x="123" y="513" width="72" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="As4-Mg-1Y9"/>
+                                    <constraint firstAttribute="width" constant="72" id="DRg-y7-N4F"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="X"/>
+                                    <segment title="Y"/>
+                                    <segment title="Z"/>
+                                </segments>
+                                <connections>
+                                    <action selector="takeTransform1AxisFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="eVH-kZ-9Qg"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EuX-GI-zfs">
+                                <rect key="frame" x="123" y="566" width="72" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="6pd-FS-Mkw"/>
+                                    <constraint firstAttribute="height" constant="28" id="oHw-uZ-Q7T"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="X"/>
+                                    <segment title="Y"/>
+                                    <segment title="Z"/>
+                                </segments>
+                                <connections>
+                                    <action selector="takeTransform2AxisFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="X62-gK-9Cw"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="qvl-05-RXr">
+                                <rect key="frame" x="123" y="619" width="72" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="Apj-OB-Dwl"/>
+                                    <constraint firstAttribute="height" constant="28" id="RWK-iL-v9X"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="X"/>
+                                    <segment title="Y"/>
+                                    <segment title="Z"/>
+                                </segments>
+                                <connections>
+                                    <action selector="takeTransform3AxisFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="Q1w-JY-pqH"/>
+                                </connections>
+                            </segmentedControl>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="n2m-Cu-vNW">
+                                <rect key="frame" x="218" y="507" width="104" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ABV-x4-sza"/>
+                                    <constraint firstAttribute="width" constant="100" id="cib-DR-QRp"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="takeTransform1ValueFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="Fep-6o-P1D"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1EZ-NN-EM0">
+                                <rect key="frame" x="218" y="562" width="104" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="2a5-Yc-Fzg"/>
+                                    <constraint firstAttribute="height" constant="30" id="6zZ-TU-kAb"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="takeTransform2ValueFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="0H0-i6-qrb"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MCH-uk-e6o">
+                                <rect key="frame" x="218" y="617" width="104" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Ztq-l8-XBW"/>
+                                    <constraint firstAttribute="height" constant="30" id="xYT-ju-yY2"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="takeTransform3ValueFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="dG9-fG-kiT"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWC-Mu-zgh">
+                                <rect key="frame" x="243" y="48" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Reset Identity"/>
+                                <connections>
+                                    <action selector="resetIdentity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t9j-Yf-rPa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="x9N-y7-Hix" firstAttribute="top" secondItem="3Vc-Ch-LbB" secondAttribute="bottom" constant="25" id="5Ga-sG-ngB"/>
+                            <constraint firstItem="EuX-GI-zfs" firstAttribute="leading" secondItem="x9N-y7-Hix" secondAttribute="trailing" constant="25" id="E1w-tW-Q28"/>
+                            <constraint firstItem="qvl-05-RXr" firstAttribute="leading" secondItem="oc9-BC-DpA" secondAttribute="trailing" constant="25" id="Nyr-Cp-b1V"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oc9-BC-DpA" secondAttribute="bottom" constant="20" id="OJe-3B-IMr"/>
+                            <constraint firstItem="oc9-BC-DpA" firstAttribute="top" secondItem="x9N-y7-Hix" secondAttribute="bottom" constant="25" id="Ov5-Dy-gr9"/>
+                            <constraint firstItem="EuX-GI-zfs" firstAttribute="top" secondItem="xow-cs-ubx" secondAttribute="bottom" constant="25" id="UgG-fO-ouZ"/>
+                            <constraint firstItem="n2m-Cu-vNW" firstAttribute="leading" secondItem="xow-cs-ubx" secondAttribute="trailing" constant="25" id="Zq5-Il-aC4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qvl-05-RXr" secondAttribute="bottom" constant="20" id="fab-lq-XwG"/>
+                            <constraint firstItem="MCH-uk-e6o" firstAttribute="top" secondItem="1EZ-NN-EM0" secondAttribute="bottom" constant="25" id="g0q-in-72H"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MCH-uk-e6o" secondAttribute="bottom" constant="20" id="gr6-LO-Hu0"/>
+                            <constraint firstItem="1EZ-NN-EM0" firstAttribute="top" secondItem="n2m-Cu-vNW" secondAttribute="bottom" constant="25" id="ixL-C4-4fa"/>
+                            <constraint firstItem="3Vc-Ch-LbB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="kqh-lF-fFN"/>
+                            <constraint firstItem="MCH-uk-e6o" firstAttribute="leading" secondItem="qvl-05-RXr" secondAttribute="trailing" constant="25" id="lRB-AE-n1f"/>
+                            <constraint firstItem="oc9-BC-DpA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="m3N-Co-gfj"/>
+                            <constraint firstItem="x9N-y7-Hix" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="nqU-uz-34t"/>
+                            <constraint firstItem="xow-cs-ubx" firstAttribute="leading" secondItem="3Vc-Ch-LbB" secondAttribute="trailing" constant="25" id="wli-pi-Hsi"/>
+                            <constraint firstItem="qvl-05-RXr" firstAttribute="top" secondItem="EuX-GI-zfs" secondAttribute="bottom" constant="25" id="xj7-Jb-AP0"/>
+                            <constraint firstItem="1EZ-NN-EM0" firstAttribute="leading" secondItem="EuX-GI-zfs" secondAttribute="trailing" constant="25" id="zP3-hx-PKG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="transform1ValueSlider" destination="n2m-Cu-vNW" id="UBP-MM-dLc"/>
+                        <outlet property="transform2ValueSlider" destination="1EZ-NN-EM0" id="jbL-Bf-Jua"/>
+                        <outlet property="transform3ValueSlider" destination="MCH-uk-e6o" id="Lnx-Vy-vGE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+</document>
