@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE9CA461EF29D4B00FDFAFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE9CA451EF29D4B00FDFAFE /* main.m */; };
+		AAE9CA491EF29D4B00FDFAFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE9CA481EF29D4B00FDFAFE /* AppDelegate.m */; };
+		AAE9CA4C1EF29D4B00FDFAFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE9CA4B1EF29D4B00FDFAFE /* ViewController.m */; };
+		AAE9CA4F1EF29D4B00FDFAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE9CA4D1EF29D4B00FDFAFE /* Main.storyboard */; };
+		AAE9CA511EF29D4B00FDFAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE9CA501EF29D4B00FDFAFE /* Assets.xcassets */; };
+		AAE9CA541EF29D4B00FDFAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE9CA521EF29D4B00FDFAFE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAE9CA411EF29D4B00FDFAFE /* OpenGLESBookFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLESBookFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE9CA451EF29D4B00FDFAFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAE9CA471EF29D4B00FDFAFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAE9CA481EF29D4B00FDFAFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAE9CA4A1EF29D4B00FDFAFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAE9CA4B1EF29D4B00FDFAFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAE9CA4E1EF29D4B00FDFAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAE9CA501EF29D4B00FDFAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE9CA531EF29D4B00FDFAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAE9CA551EF29D4B00FDFAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE9CA3E1EF29D4B00FDFAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE9CA381EF29D4B00FDFAFE = {
+			isa = PBXGroup;
+			children = (
+				AAE9CA431EF29D4B00FDFAFE /* OpenGLESBookFirst */,
+				AAE9CA421EF29D4B00FDFAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE9CA421EF29D4B00FDFAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE9CA411EF29D4B00FDFAFE /* OpenGLESBookFirst.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE9CA431EF29D4B00FDFAFE /* OpenGLESBookFirst */ = {
+			isa = PBXGroup;
+			children = (
+				AAE9CA471EF29D4B00FDFAFE /* AppDelegate.h */,
+				AAE9CA481EF29D4B00FDFAFE /* AppDelegate.m */,
+				AAE9CA4A1EF29D4B00FDFAFE /* ViewController.h */,
+				AAE9CA4B1EF29D4B00FDFAFE /* ViewController.m */,
+				AAE9CA4D1EF29D4B00FDFAFE /* Main.storyboard */,
+				AAE9CA501EF29D4B00FDFAFE /* Assets.xcassets */,
+				AAE9CA521EF29D4B00FDFAFE /* LaunchScreen.storyboard */,
+				AAE9CA551EF29D4B00FDFAFE /* Info.plist */,
+				AAE9CA441EF29D4B00FDFAFE /* Supporting Files */,
+			);
+			path = OpenGLESBookFirst;
+			sourceTree = "<group>";
+		};
+		AAE9CA441EF29D4B00FDFAFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE9CA451EF29D4B00FDFAFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE9CA401EF29D4B00FDFAFE /* OpenGLESBookFirst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE9CA581EF29D4B00FDFAFE /* Build configuration list for PBXNativeTarget "OpenGLESBookFirst" */;
+			buildPhases = (
+				AAE9CA3D1EF29D4B00FDFAFE /* Sources */,
+				AAE9CA3E1EF29D4B00FDFAFE /* Frameworks */,
+				AAE9CA3F1EF29D4B00FDFAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLESBookFirst;
+			productName = OpenGLESBookFirst;
+			productReference = AAE9CA411EF29D4B00FDFAFE /* OpenGLESBookFirst.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE9CA391EF29D4B00FDFAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gomeguomingyue;
+				TargetAttributes = {
+					AAE9CA401EF29D4B00FDFAFE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z9UD67WPFX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAE9CA3C1EF29D4B00FDFAFE /* Build configuration list for PBXProject "OpenGLESBookFirst" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE9CA381EF29D4B00FDFAFE;
+			productRefGroup = AAE9CA421EF29D4B00FDFAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE9CA401EF29D4B00FDFAFE /* OpenGLESBookFirst */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE9CA3F1EF29D4B00FDFAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE9CA541EF29D4B00FDFAFE /* LaunchScreen.storyboard in Resources */,
+				AAE9CA511EF29D4B00FDFAFE /* Assets.xcassets in Resources */,
+				AAE9CA4F1EF29D4B00FDFAFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE9CA3D1EF29D4B00FDFAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE9CA4C1EF29D4B00FDFAFE /* ViewController.m in Sources */,
+				AAE9CA491EF29D4B00FDFAFE /* AppDelegate.m in Sources */,
+				AAE9CA461EF29D4B00FDFAFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAE9CA4D1EF29D4B00FDFAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE9CA4E1EF29D4B00FDFAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAE9CA521EF29D4B00FDFAFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE9CA531EF29D4B00FDFAFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE9CA561EF29D4B00FDFAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE9CA571EF29D4B00FDFAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE9CA591EF29D4B00FDFAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OpenGLESBookFirst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.gomefinance.com.cn.OpenGLESBookFirst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAE9CA5A1EF29D4B00FDFAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OpenGLESBookFirst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.gomefinance.com.cn.OpenGLESBookFirst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE9CA3C1EF29D4B00FDFAFE /* Build configuration list for PBXProject "OpenGLESBookFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE9CA561EF29D4B00FDFAFE /* Debug */,
+				AAE9CA571EF29D4B00FDFAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE9CA581EF29D4B00FDFAFE /* Build configuration list for PBXNativeTarget "OpenGLESBookFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE9CA591EF29D4B00FDFAFE /* Debug */,
+				AAE9CA5A1EF29D4B00FDFAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE9CA391EF29D4B00FDFAFE /* Project object */;
+}
