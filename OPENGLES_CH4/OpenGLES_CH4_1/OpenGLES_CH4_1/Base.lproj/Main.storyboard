@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GLKView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nJ3-FA-6Lg">
+                                <rect key="frame" x="163" y="40" width="51" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="8A9-8k-wOo"/>
+                                    <constraint firstAttribute="height" constant="31" id="VTB-c5-oOg"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="takeShouldUseFaceNormalsFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="HuL-0f-CY5"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lRm-XX-YNf">
+                                <rect key="frame" x="163" y="566" width="51" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="lwG-Hb-nXp"/>
+                                    <constraint firstAttribute="width" constant="49" id="tea-ch-yRc"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="takeShouldDrawNormalsFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="VIn-3K-bbi"/>
+                                </connections>
+                            </switch>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="nfP-iJ-4pm">
+                                <rect key="frame" x="55" y="617" width="264" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="2c2-hk-Jbt"/>
+                                    <constraint firstAttribute="width" constant="260" id="jiX-3h-QA4"/>
+                                    <constraint firstAttribute="height" constant="30" id="u50-IB-8fl"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="yFZ-hq-Gbp"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="takeCenterVertexHeightFrom:" destination="BYZ-38-t0r" eventType="valueChanged" id="KSX-oU-AZA"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nfP-iJ-4pm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HBP-xg-3I9"/>
+                            <constraint firstItem="nJ3-FA-6Lg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IYs-0i-yAL"/>
+                            <constraint firstItem="lRm-XX-YNf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ibn-g5-1gt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nfP-iJ-4pm" secondAttribute="bottom" constant="20" id="IqA-o8-fWd"/>
+                            <constraint firstItem="nfP-iJ-4pm" firstAttribute="top" secondItem="lRm-XX-YNf" secondAttribute="bottom" constant="20" id="O1c-JF-OqW"/>
+                            <constraint firstItem="nJ3-FA-6Lg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="aqh-Jp-iIw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+</document>

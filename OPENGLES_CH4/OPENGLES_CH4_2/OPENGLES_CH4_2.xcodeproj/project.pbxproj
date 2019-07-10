@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA825BD1F6BDCA2003C9192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA825BC1F6BDCA2003C9192 /* main.m */; };
+		AAA825C01F6BDCA2003C9192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA825BF1F6BDCA2003C9192 /* AppDelegate.m */; };
+		AAA825C31F6BDCA2003C9192 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA825C21F6BDCA2003C9192 /* ViewController.m */; };
+		AAA825C61F6BDCA2003C9192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA825C41F6BDCA2003C9192 /* Main.storyboard */; };
+		AAA825C81F6BDCA2003C9192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA825C71F6BDCA2003C9192 /* Assets.xcassets */; };
+		AAA825CB1F6BDCA2003C9192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA825C91F6BDCA2003C9192 /* LaunchScreen.storyboard */; };
+		AAA825D61F6BDD12003C9192 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA825D31F6BDD12003C9192 /* AGLKContext.m */; };
+		AAA825D71F6BDD12003C9192 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA825D51F6BDD12003C9192 /* AGLKVertexAttribArrayBuffer.m */; };
+		AAA825E01F6BF3EA003C9192 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA825D91F6BF3EA003C9192 /* Default-568h@2x.png */; };
+		AAA825E11F6BF3EA003C9192 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA825DA1F6BF3EA003C9192 /* grid.png */; };
+		AAA825E21F6BF3EA003C9192 /* Lighting256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA825DB1F6BF3EA003C9192 /* Lighting256x256.png */; };
+		AAA825E31F6BF3EA003C9192 /* LightingDetail256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA825DC1F6BF3EA003C9192 /* LightingDetail256x256.png */; };
+		AAA825E41F6BF3EA003C9192 /* OpenGL_ES_for_iOS_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA825DD1F6BF3EA003C9192 /* OpenGL_ES_for_iOS_114x114.png */; };
+		AAA825E51F6BF3EA003C9192 /* OpenGL_ES_for_iOS_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA825DE1F6BF3EA003C9192 /* OpenGL_ES_for_iOS_57x57.png */; };
+		AAA825E61F6BF3EA003C9192 /* OpenGL_ES_for_iOS_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA825DF1F6BF3EA003C9192 /* OpenGL_ES_for_iOS_72x72.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAA825B81F6BDCA2003C9192 /* OPENGLES_CH4_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPENGLES_CH4_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA825BC1F6BDCA2003C9192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAA825BE1F6BDCA2003C9192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAA825BF1F6BDCA2003C9192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAA825C11F6BDCA2003C9192 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAA825C21F6BDCA2003C9192 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAA825C51F6BDCA2003C9192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA825C71F6BDCA2003C9192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA825CA1F6BDCA2003C9192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAA825CC1F6BDCA2003C9192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA825D21F6BDD12003C9192 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		AAA825D31F6BDD12003C9192 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		AAA825D41F6BDD12003C9192 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		AAA825D51F6BDD12003C9192 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		AAA825D91F6BF3EA003C9192 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AAA825DA1F6BF3EA003C9192 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		AAA825DB1F6BF3EA003C9192 /* Lighting256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lighting256x256.png; sourceTree = "<group>"; };
+		AAA825DC1F6BF3EA003C9192 /* LightingDetail256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightingDetail256x256.png; sourceTree = "<group>"; };
+		AAA825DD1F6BF3EA003C9192 /* OpenGL_ES_for_iOS_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_114x114.png; sourceTree = "<group>"; };
+		AAA825DE1F6BF3EA003C9192 /* OpenGL_ES_for_iOS_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_57x57.png; sourceTree = "<group>"; };
+		AAA825DF1F6BF3EA003C9192 /* OpenGL_ES_for_iOS_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_72x72.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA825B51F6BDCA2003C9192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA825AF1F6BDCA2003C9192 = {
+			isa = PBXGroup;
+			children = (
+				AAA825BA1F6BDCA2003C9192 /* OPENGLES_CH4_2 */,
+				AAA825B91F6BDCA2003C9192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA825B91F6BDCA2003C9192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA825B81F6BDCA2003C9192 /* OPENGLES_CH4_2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA825BA1F6BDCA2003C9192 /* OPENGLES_CH4_2 */ = {
+			isa = PBXGroup;
+			children = (
+				AAA825BE1F6BDCA2003C9192 /* AppDelegate.h */,
+				AAA825BF1F6BDCA2003C9192 /* AppDelegate.m */,
+				AAA825D81F6BF3EA003C9192 /* resources */,
+				AAA825D21F6BDD12003C9192 /* AGLKContext.h */,
+				AAA825D31F6BDD12003C9192 /* AGLKContext.m */,
+				AAA825D41F6BDD12003C9192 /* AGLKVertexAttribArrayBuffer.h */,
+				AAA825D51F6BDD12003C9192 /* AGLKVertexAttribArrayBuffer.m */,
+				AAA825C11F6BDCA2003C9192 /* ViewController.h */,
+				AAA825C21F6BDCA2003C9192 /* ViewController.m */,
+				AAA825C41F6BDCA2003C9192 /* Main.storyboard */,
+				AAA825C71F6BDCA2003C9192 /* Assets.xcassets */,
+				AAA825C91F6BDCA2003C9192 /* LaunchScreen.storyboard */,
+				AAA825CC1F6BDCA2003C9192 /* Info.plist */,
+				AAA825BB1F6BDCA2003C9192 /* Supporting Files */,
+			);
+			path = OPENGLES_CH4_2;
+			sourceTree = "<group>";
+		};
+		AAA825BB1F6BDCA2003C9192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA825BC1F6BDCA2003C9192 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAA825D81F6BF3EA003C9192 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAA825D91F6BF3EA003C9192 /* Default-568h@2x.png */,
+				AAA825DA1F6BF3EA003C9192 /* grid.png */,
+				AAA825DB1F6BF3EA003C9192 /* Lighting256x256.png */,
+				AAA825DC1F6BF3EA003C9192 /* LightingDetail256x256.png */,
+				AAA825DD1F6BF3EA003C9192 /* OpenGL_ES_for_iOS_114x114.png */,
+				AAA825DE1F6BF3EA003C9192 /* OpenGL_ES_for_iOS_57x57.png */,
+				AAA825DF1F6BF3EA003C9192 /* OpenGL_ES_for_iOS_72x72.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA825B71F6BDCA2003C9192 /* OPENGLES_CH4_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA825CF1F6BDCA2003C9192 /* Build configuration list for PBXNativeTarget "OPENGLES_CH4_2" */;
+			buildPhases = (
+				AAA825B41F6BDCA2003C9192 /* Sources */,
+				AAA825B51F6BDCA2003C9192 /* Frameworks */,
+				AAA825B61F6BDCA2003C9192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPENGLES_CH4_2;
+			productName = OPENGLES_CH4_2;
+			productReference = AAA825B81F6BDCA2003C9192 /* OPENGLES_CH4_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA825B01F6BDCA2003C9192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gomeguomingyue;
+				TargetAttributes = {
+					AAA825B71F6BDCA2003C9192 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z9UD67WPFX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAA825B31F6BDCA2003C9192 /* Build configuration list for PBXProject "OPENGLES_CH4_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA825AF1F6BDCA2003C9192;
+			productRefGroup = AAA825B91F6BDCA2003C9192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA825B71F6BDCA2003C9192 /* OPENGLES_CH4_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA825B61F6BDCA2003C9192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA825CB1F6BDCA2003C9192 /* LaunchScreen.storyboard in Resources */,
+				AAA825E11F6BF3EA003C9192 /* grid.png in Resources */,
+				AAA825E31F6BF3EA003C9192 /* LightingDetail256x256.png in Resources */,
+				AAA825E61F6BF3EA003C9192 /* OpenGL_ES_for_iOS_72x72.png in Resources */,
+				AAA825E21F6BF3EA003C9192 /* Lighting256x256.png in Resources */,
+				AAA825E01F6BF3EA003C9192 /* Default-568h@2x.png in Resources */,
+				AAA825C81F6BDCA2003C9192 /* Assets.xcassets in Resources */,
+				AAA825C61F6BDCA2003C9192 /* Main.storyboard in Resources */,
+				AAA825E51F6BF3EA003C9192 /* OpenGL_ES_for_iOS_57x57.png in Resources */,
+				AAA825E41F6BF3EA003C9192 /* OpenGL_ES_for_iOS_114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA825B41F6BDCA2003C9192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA825D61F6BDD12003C9192 /* AGLKContext.m in Sources */,
+				AAA825C31F6BDCA2003C9192 /* ViewController.m in Sources */,
+				AAA825D71F6BDD12003C9192 /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				AAA825C01F6BDCA2003C9192 /* AppDelegate.m in Sources */,
+				AAA825BD1F6BDCA2003C9192 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAA825C41F6BDCA2003C9192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA825C51F6BDCA2003C9192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA825C91F6BDCA2003C9192 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA825CA1F6BDCA2003C9192 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA825CD1F6BDCA2003C9192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA825CE1F6BDCA2003C9192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA825D01F6BDCA2003C9192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OPENGLES_CH4_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.gomefinance.com.cn.OPENGLES-CH4-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAA825D11F6BDCA2003C9192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OPENGLES_CH4_2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.gomefinance.com.cn.OPENGLES-CH4-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA825B31F6BDCA2003C9192 /* Build configuration list for PBXProject "OPENGLES_CH4_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA825CD1F6BDCA2003C9192 /* Debug */,
+				AAA825CE1F6BDCA2003C9192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA825CF1F6BDCA2003C9192 /* Build configuration list for PBXNativeTarget "OPENGLES_CH4_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA825D01F6BDCA2003C9192 /* Debug */,
+				AAA825D11F6BDCA2003C9192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA825B01F6BDCA2003C9192 /* Project object */;
+}
