@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		929C0ED91F88CA2800B7F1FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0ED81F88CA2800B7F1FF /* AppDelegate.m */; };
+		929C0EDC1F88CA2800B7F1FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0EDB1F88CA2800B7F1FF /* ViewController.m */; };
+		929C0EDF1F88CA2800B7F1FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929C0EDD1F88CA2800B7F1FF /* Main.storyboard */; };
+		929C0EE11F88CA2800B7F1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929C0EE01F88CA2800B7F1FF /* Assets.xcassets */; };
+		929C0EE41F88CA2800B7F1FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929C0EE21F88CA2800B7F1FF /* LaunchScreen.storyboard */; };
+		929C0EE71F88CA2800B7F1FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0EE61F88CA2800B7F1FF /* main.m */; };
+		929C0EF01F88D18600B7F1FF /* AGLKTextureMatrix2PointLightShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 929C0EEE1F88D18500B7F1FF /* AGLKTextureMatrix2PointLightShader.fsh */; };
+		929C0EF11F88D18600B7F1FF /* AGLKTextureMatrix2PointLightShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 929C0EEF1F88D18500B7F1FF /* AGLKTextureMatrix2PointLightShader.vsh */; };
+		929C0F101F88F15B00B7F1FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 929C0F0B1F88F15B00B7F1FF /* Default-568h@2x.png */; };
+		929C0F111F88F15B00B7F1FF /* OpenGL_ES_for_iOS_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 929C0F0C1F88F15B00B7F1FF /* OpenGL_ES_for_iOS_114x114.png */; };
+		929C0F121F88F15B00B7F1FF /* OpenGL_ES_for_iOS_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 929C0F0D1F88F15B00B7F1FF /* OpenGL_ES_for_iOS_57x57.png */; };
+		929C0F131F88F15B00B7F1FF /* OpenGL_ES_for_iOS_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 929C0F0E1F88F15B00B7F1FF /* OpenGL_ES_for_iOS_72x72.png */; };
+		929C0F141F88F15B00B7F1FF /* RabbitTextureAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 929C0F0F1F88F15B00B7F1FF /* RabbitTextureAtlas.png */; };
+		929C0F351F88FD1E00B7F1FF /* SceneAnimatedMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0F2E1F88FD1E00B7F1FF /* SceneAnimatedMesh.m */; };
+		929C0F361F88FD1E00B7F1FF /* SceneCanLightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0F301F88FD1E00B7F1FF /* SceneCanLightModel.m */; };
+		929C0F371F88FD1E00B7F1FF /* SceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0F321F88FD1E00B7F1FF /* SceneMesh.m */; };
+		929C0F381F88FD1E00B7F1FF /* SceneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0F341F88FD1E00B7F1FF /* SceneModel.m */; };
+		929C0F401F88FD6C00B7F1FF /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0F3B1F88FD6B00B7F1FF /* AGLKContext.m */; };
+		929C0F411F88FD6C00B7F1FF /* AGLKTextureTransformBaseEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0F3D1F88FD6B00B7F1FF /* AGLKTextureTransformBaseEffect.m */; };
+		929C0F421F88FD6C00B7F1FF /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 929C0F3F1F88FD6B00B7F1FF /* AGLKVertexAttribArrayBuffer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		929C0ED41F88CA2800B7F1FF /* OPENGLES_CH6_5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPENGLES_CH6_5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929C0ED71F88CA2800B7F1FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		929C0ED81F88CA2800B7F1FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		929C0EDA1F88CA2800B7F1FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		929C0EDB1F88CA2800B7F1FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		929C0EDE1F88CA2800B7F1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929C0EE01F88CA2800B7F1FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929C0EE31F88CA2800B7F1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		929C0EE51F88CA2800B7F1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929C0EE61F88CA2800B7F1FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		929C0EEE1F88D18500B7F1FF /* AGLKTextureMatrix2PointLightShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.fsh; sourceTree = "<group>"; };
+		929C0EEF1F88D18500B7F1FF /* AGLKTextureMatrix2PointLightShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.vsh; sourceTree = "<group>"; };
+		929C0F0B1F88F15B00B7F1FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		929C0F0C1F88F15B00B7F1FF /* OpenGL_ES_for_iOS_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_114x114.png; sourceTree = "<group>"; };
+		929C0F0D1F88F15B00B7F1FF /* OpenGL_ES_for_iOS_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_57x57.png; sourceTree = "<group>"; };
+		929C0F0E1F88F15B00B7F1FF /* OpenGL_ES_for_iOS_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_72x72.png; sourceTree = "<group>"; };
+		929C0F0F1F88F15B00B7F1FF /* RabbitTextureAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RabbitTextureAtlas.png; sourceTree = "<group>"; };
+		929C0F2C1F88FD1E00B7F1FF /* canLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = canLight.h; sourceTree = "<group>"; };
+		929C0F2D1F88FD1E00B7F1FF /* SceneAnimatedMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneAnimatedMesh.h; sourceTree = "<group>"; };
+		929C0F2E1F88FD1E00B7F1FF /* SceneAnimatedMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneAnimatedMesh.m; sourceTree = "<group>"; };
+		929C0F2F1F88FD1E00B7F1FF /* SceneCanLightModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneCanLightModel.h; sourceTree = "<group>"; };
+		929C0F301F88FD1E00B7F1FF /* SceneCanLightModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneCanLightModel.m; sourceTree = "<group>"; };
+		929C0F311F88FD1E00B7F1FF /* SceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneMesh.h; sourceTree = "<group>"; };
+		929C0F321F88FD1E00B7F1FF /* SceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneMesh.m; sourceTree = "<group>"; };
+		929C0F331F88FD1E00B7F1FF /* SceneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneModel.h; sourceTree = "<group>"; };
+		929C0F341F88FD1E00B7F1FF /* SceneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneModel.m; sourceTree = "<group>"; };
+		929C0F3A1F88FD6B00B7F1FF /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		929C0F3B1F88FD6B00B7F1FF /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		929C0F3C1F88FD6B00B7F1FF /* AGLKTextureTransformBaseEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKTextureTransformBaseEffect.h; sourceTree = "<group>"; };
+		929C0F3D1F88FD6B00B7F1FF /* AGLKTextureTransformBaseEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKTextureTransformBaseEffect.m; sourceTree = "<group>"; };
+		929C0F3E1F88FD6B00B7F1FF /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		929C0F3F1F88FD6B00B7F1FF /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929C0ED11F88CA2800B7F1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929C0ECB1F88CA2800B7F1FF = {
+			isa = PBXGroup;
+			children = (
+				929C0ED61F88CA2800B7F1FF /* OPENGLES_CH6_5 */,
+				929C0ED51F88CA2800B7F1FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929C0ED51F88CA2800B7F1FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929C0ED41F88CA2800B7F1FF /* OPENGLES_CH6_5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929C0ED61F88CA2800B7F1FF /* OPENGLES_CH6_5 */ = {
+			isa = PBXGroup;
+			children = (
+				929C0F0A1F88F15B00B7F1FF /* resources */,
+				929C0ED71F88CA2800B7F1FF /* AppDelegate.h */,
+				929C0ED81F88CA2800B7F1FF /* AppDelegate.m */,
+				929C0F391F88FD6B00B7F1FF /* AGLK */,
+				929C0F2B1F88FD1E00B7F1FF /* models */,
+				929C0EED1F88D18500B7F1FF /* shaders */,
+				929C0EDA1F88CA2800B7F1FF /* ViewController.h */,
+				929C0EDB1F88CA2800B7F1FF /* ViewController.m */,
+				929C0EDD1F88CA2800B7F1FF /* Main.storyboard */,
+				929C0EE01F88CA2800B7F1FF /* Assets.xcassets */,
+				929C0EE21F88CA2800B7F1FF /* LaunchScreen.storyboard */,
+				929C0EE51F88CA2800B7F1FF /* Info.plist */,
+				929C0EE61F88CA2800B7F1FF /* main.m */,
+			);
+			path = OPENGLES_CH6_5;
+			sourceTree = "<group>";
+		};
+		929C0EED1F88D18500B7F1FF /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				929C0EEE1F88D18500B7F1FF /* AGLKTextureMatrix2PointLightShader.fsh */,
+				929C0EEF1F88D18500B7F1FF /* AGLKTextureMatrix2PointLightShader.vsh */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		929C0F0A1F88F15B00B7F1FF /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				929C0F0B1F88F15B00B7F1FF /* Default-568h@2x.png */,
+				929C0F0C1F88F15B00B7F1FF /* OpenGL_ES_for_iOS_114x114.png */,
+				929C0F0D1F88F15B00B7F1FF /* OpenGL_ES_for_iOS_57x57.png */,
+				929C0F0E1F88F15B00B7F1FF /* OpenGL_ES_for_iOS_72x72.png */,
+				929C0F0F1F88F15B00B7F1FF /* RabbitTextureAtlas.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		929C0F2B1F88FD1E00B7F1FF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				929C0F2C1F88FD1E00B7F1FF /* canLight.h */,
+				929C0F2D1F88FD1E00B7F1FF /* SceneAnimatedMesh.h */,
+				929C0F2E1F88FD1E00B7F1FF /* SceneAnimatedMesh.m */,
+				929C0F2F1F88FD1E00B7F1FF /* SceneCanLightModel.h */,
+				929C0F301F88FD1E00B7F1FF /* SceneCanLightModel.m */,
+				929C0F311F88FD1E00B7F1FF /* SceneMesh.h */,
+				929C0F321F88FD1E00B7F1FF /* SceneMesh.m */,
+				929C0F331F88FD1E00B7F1FF /* SceneModel.h */,
+				929C0F341F88FD1E00B7F1FF /* SceneModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		929C0F391F88FD6B00B7F1FF /* AGLK */ = {
+			isa = PBXGroup;
+			children = (
+				929C0F3A1F88FD6B00B7F1FF /* AGLKContext.h */,
+				929C0F3B1F88FD6B00B7F1FF /* AGLKContext.m */,
+				929C0F3C1F88FD6B00B7F1FF /* AGLKTextureTransformBaseEffect.h */,
+				929C0F3D1F88FD6B00B7F1FF /* AGLKTextureTransformBaseEffect.m */,
+				929C0F3E1F88FD6B00B7F1FF /* AGLKVertexAttribArrayBuffer.h */,
+				929C0F3F1F88FD6B00B7F1FF /* AGLKVertexAttribArrayBuffer.m */,
+			);
+			path = AGLK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929C0ED31F88CA2800B7F1FF /* OPENGLES_CH6_5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929C0EEA1F88CA2800B7F1FF /* Build configuration list for PBXNativeTarget "OPENGLES_CH6_5" */;
+			buildPhases = (
+				929C0ED01F88CA2800B7F1FF /* Sources */,
+				929C0ED11F88CA2800B7F1FF /* Frameworks */,
+				929C0ED21F88CA2800B7F1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPENGLES_CH6_5;
+			productName = OPENGLES_CH6_5;
+			productReference = 929C0ED41F88CA2800B7F1FF /* OPENGLES_CH6_5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929C0ECC1F88CA2800B7F1FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = gome;
+				TargetAttributes = {
+					929C0ED31F88CA2800B7F1FF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 929C0ECF1F88CA2800B7F1FF /* Build configuration list for PBXProject "OPENGLES_CH6_5" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929C0ECB1F88CA2800B7F1FF;
+			productRefGroup = 929C0ED51F88CA2800B7F1FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929C0ED31F88CA2800B7F1FF /* OPENGLES_CH6_5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929C0ED21F88CA2800B7F1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929C0EE41F88CA2800B7F1FF /* LaunchScreen.storyboard in Resources */,
+				929C0F121F88F15B00B7F1FF /* OpenGL_ES_for_iOS_57x57.png in Resources */,
+				929C0EF11F88D18600B7F1FF /* AGLKTextureMatrix2PointLightShader.vsh in Resources */,
+				929C0EF01F88D18600B7F1FF /* AGLKTextureMatrix2PointLightShader.fsh in Resources */,
+				929C0F131F88F15B00B7F1FF /* OpenGL_ES_for_iOS_72x72.png in Resources */,
+				929C0EE11F88CA2800B7F1FF /* Assets.xcassets in Resources */,
+				929C0F111F88F15B00B7F1FF /* OpenGL_ES_for_iOS_114x114.png in Resources */,
+				929C0F141F88F15B00B7F1FF /* RabbitTextureAtlas.png in Resources */,
+				929C0EDF1F88CA2800B7F1FF /* Main.storyboard in Resources */,
+				929C0F101F88F15B00B7F1FF /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929C0ED01F88CA2800B7F1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929C0F381F88FD1E00B7F1FF /* SceneModel.m in Sources */,
+				929C0F361F88FD1E00B7F1FF /* SceneCanLightModel.m in Sources */,
+				929C0F421F88FD6C00B7F1FF /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				929C0EDC1F88CA2800B7F1FF /* ViewController.m in Sources */,
+				929C0F351F88FD1E00B7F1FF /* SceneAnimatedMesh.m in Sources */,
+				929C0F401F88FD6C00B7F1FF /* AGLKContext.m in Sources */,
+				929C0EE71F88CA2800B7F1FF /* main.m in Sources */,
+				929C0F371F88FD1E00B7F1FF /* SceneMesh.m in Sources */,
+				929C0F411F88FD6C00B7F1FF /* AGLKTextureTransformBaseEffect.m in Sources */,
+				929C0ED91F88CA2800B7F1FF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		929C0EDD1F88CA2800B7F1FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929C0EDE1F88CA2800B7F1FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		929C0EE21F88CA2800B7F1FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929C0EE31F88CA2800B7F1FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		929C0EE81F88CA2800B7F1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		929C0EE91F88CA2800B7F1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929C0EEB1F88CA2800B7F1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OPENGLES_CH6_5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "http---www.gome.com-.OPENGLES-CH6-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		929C0EEC1F88CA2800B7F1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OPENGLES_CH6_5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "http---www.gome.com-.OPENGLES-CH6-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929C0ECF1F88CA2800B7F1FF /* Build configuration list for PBXProject "OPENGLES_CH6_5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929C0EE81F88CA2800B7F1FF /* Debug */,
+				929C0EE91F88CA2800B7F1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929C0EEA1F88CA2800B7F1FF /* Build configuration list for PBXNativeTarget "OPENGLES_CH6_5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929C0EEB1F88CA2800B7F1FF /* Debug */,
+				929C0EEC1F88CA2800B7F1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929C0ECC1F88CA2800B7F1FF /* Project object */;
+}

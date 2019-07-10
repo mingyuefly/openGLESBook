@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA4073181F7E868400F93569 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4073171F7E868400F93569 /* AppDelegate.m */; };
+		AA40731B1F7E868400F93569 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA40731A1F7E868400F93569 /* ViewController.m */; };
+		AA40731E1F7E868400F93569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA40731C1F7E868400F93569 /* Main.storyboard */; };
+		AA4073201F7E868400F93569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA40731F1F7E868400F93569 /* Assets.xcassets */; };
+		AA4073231F7E868400F93569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4073211F7E868400F93569 /* LaunchScreen.storyboard */; };
+		AA4073261F7E868400F93569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4073251F7E868400F93569 /* main.m */; };
+		AA4073311F7F42C700F93569 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AA40732E1F7F42C700F93569 /* AGLKContext.m */; };
+		AA4073321F7F42C700F93569 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4073301F7F42C700F93569 /* AGLKVertexAttribArrayBuffer.m */; };
+		AA40733A1F7F42F400F93569 /* AGLKPointParticleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA4073341F7F42F400F93569 /* AGLKPointParticleShader.fsh */; };
+		AA40733B1F7F42F400F93569 /* AGLKPointParticleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA4073351F7F42F400F93569 /* AGLKPointParticleShader.vsh */; };
+		AA40733C1F7F42F400F93569 /* AGLKSkyboxShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA4073361F7F42F400F93569 /* AGLKSkyboxShader.fsh */; };
+		AA40733D1F7F42F400F93569 /* AGLKSkyboxShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA4073371F7F42F400F93569 /* AGLKSkyboxShader.vsh */; };
+		AA40733E1F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA4073381F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.fsh */; };
+		AA40733F1F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA4073391F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.vsh */; };
+		AA4073461F7F433A00F93569 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4073411F7F433A00F93569 /* Default-568h@2x.png */; };
+		AA4073471F7F433A00F93569 /* OpenGL_ES_for_iOS_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4073421F7F433A00F93569 /* OpenGL_ES_for_iOS_114x114.png */; };
+		AA4073481F7F433A00F93569 /* OpenGL_ES_for_iOS_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4073431F7F433A00F93569 /* OpenGL_ES_for_iOS_57x57.png */; };
+		AA4073491F7F433A00F93569 /* OpenGL_ES_for_iOS_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4073441F7F433A00F93569 /* OpenGL_ES_for_iOS_72x72.png */; };
+		AA40734A1F7F433A00F93569 /* RadiusSelectionTool.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4073451F7F433A00F93569 /* RadiusSelectionTool.png */; };
+		AA40735E1F7F44B000F93569 /* SceneAnimatedMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4073591F7F44B000F93569 /* SceneAnimatedMesh.m */; };
+		AA40735F1F7F44B000F93569 /* SceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = AA40735B1F7F44B000F93569 /* SceneMesh.m */; };
+		AA4073601F7F44B000F93569 /* SceneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA40735D1F7F44B000F93569 /* SceneModel.m */; };
+		AA4073631F7F456D00F93569 /* AGLKTextureTransformBaseEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4073621F7F456D00F93569 /* AGLKTextureTransformBaseEffect.m */; };
+		AA4073661F7F478E00F93569 /* SceneCanLightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4073651F7F478E00F93569 /* SceneCanLightModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA4073131F7E868400F93569 /* OPENGLES_CH6_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPENGLES_CH6_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4073161F7E868400F93569 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA4073171F7E868400F93569 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA4073191F7E868400F93569 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA40731A1F7E868400F93569 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA40731D1F7E868400F93569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA40731F1F7E868400F93569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA4073221F7E868400F93569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA4073241F7E868400F93569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4073251F7E868400F93569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA40732D1F7F42C700F93569 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		AA40732E1F7F42C700F93569 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		AA40732F1F7F42C700F93569 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		AA4073301F7F42C700F93569 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		AA4073341F7F42F400F93569 /* AGLKPointParticleShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKPointParticleShader.fsh; sourceTree = "<group>"; };
+		AA4073351F7F42F400F93569 /* AGLKPointParticleShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKPointParticleShader.vsh; sourceTree = "<group>"; };
+		AA4073361F7F42F400F93569 /* AGLKSkyboxShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKSkyboxShader.fsh; sourceTree = "<group>"; };
+		AA4073371F7F42F400F93569 /* AGLKSkyboxShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKSkyboxShader.vsh; sourceTree = "<group>"; };
+		AA4073381F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.fsh; sourceTree = "<group>"; };
+		AA4073391F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AGLKTextureMatrix2PointLightShader.vsh; sourceTree = "<group>"; };
+		AA4073411F7F433A00F93569 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA4073421F7F433A00F93569 /* OpenGL_ES_for_iOS_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_114x114.png; sourceTree = "<group>"; };
+		AA4073431F7F433A00F93569 /* OpenGL_ES_for_iOS_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_57x57.png; sourceTree = "<group>"; };
+		AA4073441F7F433A00F93569 /* OpenGL_ES_for_iOS_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_72x72.png; sourceTree = "<group>"; };
+		AA4073451F7F433A00F93569 /* RadiusSelectionTool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RadiusSelectionTool.png; sourceTree = "<group>"; };
+		AA4073571F7F44B000F93569 /* canLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = canLight.h; sourceTree = "<group>"; };
+		AA4073581F7F44B000F93569 /* SceneAnimatedMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneAnimatedMesh.h; sourceTree = "<group>"; };
+		AA4073591F7F44B000F93569 /* SceneAnimatedMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneAnimatedMesh.m; sourceTree = "<group>"; };
+		AA40735A1F7F44B000F93569 /* SceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneMesh.h; sourceTree = "<group>"; };
+		AA40735B1F7F44B000F93569 /* SceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneMesh.m; sourceTree = "<group>"; };
+		AA40735C1F7F44B000F93569 /* SceneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneModel.h; sourceTree = "<group>"; };
+		AA40735D1F7F44B000F93569 /* SceneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneModel.m; sourceTree = "<group>"; };
+		AA4073611F7F456D00F93569 /* AGLKTextureTransformBaseEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKTextureTransformBaseEffect.h; sourceTree = "<group>"; };
+		AA4073621F7F456D00F93569 /* AGLKTextureTransformBaseEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKTextureTransformBaseEffect.m; sourceTree = "<group>"; };
+		AA4073641F7F478E00F93569 /* SceneCanLightModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneCanLightModel.h; sourceTree = "<group>"; };
+		AA4073651F7F478E00F93569 /* SceneCanLightModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneCanLightModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA4073101F7E868400F93569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA40730A1F7E868400F93569 = {
+			isa = PBXGroup;
+			children = (
+				AA4073151F7E868400F93569 /* OPENGLES_CH6_3 */,
+				AA4073141F7E868400F93569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA4073141F7E868400F93569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA4073131F7E868400F93569 /* OPENGLES_CH6_3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA4073151F7E868400F93569 /* OPENGLES_CH6_3 */ = {
+			isa = PBXGroup;
+			children = (
+				AA4073401F7F433A00F93569 /* resources */,
+				AA4073161F7E868400F93569 /* AppDelegate.h */,
+				AA4073171F7E868400F93569 /* AppDelegate.m */,
+				AA4073331F7F42F400F93569 /* Shaders */,
+				AA40732C1F7F42C700F93569 /* AGLK */,
+				AA4073561F7F44B000F93569 /* models */,
+				AA4073191F7E868400F93569 /* ViewController.h */,
+				AA40731A1F7E868400F93569 /* ViewController.m */,
+				AA40731C1F7E868400F93569 /* Main.storyboard */,
+				AA40731F1F7E868400F93569 /* Assets.xcassets */,
+				AA4073211F7E868400F93569 /* LaunchScreen.storyboard */,
+				AA4073241F7E868400F93569 /* Info.plist */,
+				AA4073251F7E868400F93569 /* main.m */,
+			);
+			path = OPENGLES_CH6_3;
+			sourceTree = "<group>";
+		};
+		AA40732C1F7F42C700F93569 /* AGLK */ = {
+			isa = PBXGroup;
+			children = (
+				AA40732D1F7F42C700F93569 /* AGLKContext.h */,
+				AA40732E1F7F42C700F93569 /* AGLKContext.m */,
+				AA40732F1F7F42C700F93569 /* AGLKVertexAttribArrayBuffer.h */,
+				AA4073301F7F42C700F93569 /* AGLKVertexAttribArrayBuffer.m */,
+				AA4073611F7F456D00F93569 /* AGLKTextureTransformBaseEffect.h */,
+				AA4073621F7F456D00F93569 /* AGLKTextureTransformBaseEffect.m */,
+			);
+			path = AGLK;
+			sourceTree = "<group>";
+		};
+		AA4073331F7F42F400F93569 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				AA4073341F7F42F400F93569 /* AGLKPointParticleShader.fsh */,
+				AA4073351F7F42F400F93569 /* AGLKPointParticleShader.vsh */,
+				AA4073361F7F42F400F93569 /* AGLKSkyboxShader.fsh */,
+				AA4073371F7F42F400F93569 /* AGLKSkyboxShader.vsh */,
+				AA4073381F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.fsh */,
+				AA4073391F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		AA4073401F7F433A00F93569 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA4073411F7F433A00F93569 /* Default-568h@2x.png */,
+				AA4073421F7F433A00F93569 /* OpenGL_ES_for_iOS_114x114.png */,
+				AA4073431F7F433A00F93569 /* OpenGL_ES_for_iOS_57x57.png */,
+				AA4073441F7F433A00F93569 /* OpenGL_ES_for_iOS_72x72.png */,
+				AA4073451F7F433A00F93569 /* RadiusSelectionTool.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		AA4073561F7F44B000F93569 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				AA4073571F7F44B000F93569 /* canLight.h */,
+				AA4073581F7F44B000F93569 /* SceneAnimatedMesh.h */,
+				AA4073591F7F44B000F93569 /* SceneAnimatedMesh.m */,
+				AA40735A1F7F44B000F93569 /* SceneMesh.h */,
+				AA40735B1F7F44B000F93569 /* SceneMesh.m */,
+				AA40735C1F7F44B000F93569 /* SceneModel.h */,
+				AA40735D1F7F44B000F93569 /* SceneModel.m */,
+				AA4073641F7F478E00F93569 /* SceneCanLightModel.h */,
+				AA4073651F7F478E00F93569 /* SceneCanLightModel.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA4073121F7E868400F93569 /* OPENGLES_CH6_3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4073291F7E868400F93569 /* Build configuration list for PBXNativeTarget "OPENGLES_CH6_3" */;
+			buildPhases = (
+				AA40730F1F7E868400F93569 /* Sources */,
+				AA4073101F7E868400F93569 /* Frameworks */,
+				AA4073111F7E868400F93569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPENGLES_CH6_3;
+			productName = OPENGLES_CH6_3;
+			productReference = AA4073131F7E868400F93569 /* OPENGLES_CH6_3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA40730B1F7E868400F93569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = gomeguomingyue;
+				TargetAttributes = {
+					AA4073121F7E868400F93569 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA40730E1F7E868400F93569 /* Build configuration list for PBXProject "OPENGLES_CH6_3" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA40730A1F7E868400F93569;
+			productRefGroup = AA4073141F7E868400F93569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA4073121F7E868400F93569 /* OPENGLES_CH6_3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA4073111F7E868400F93569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4073231F7E868400F93569 /* LaunchScreen.storyboard in Resources */,
+				AA4073481F7F433A00F93569 /* OpenGL_ES_for_iOS_57x57.png in Resources */,
+				AA4073491F7F433A00F93569 /* OpenGL_ES_for_iOS_72x72.png in Resources */,
+				AA4073471F7F433A00F93569 /* OpenGL_ES_for_iOS_114x114.png in Resources */,
+				AA4073201F7E868400F93569 /* Assets.xcassets in Resources */,
+				AA40733A1F7F42F400F93569 /* AGLKPointParticleShader.fsh in Resources */,
+				AA4073461F7F433A00F93569 /* Default-568h@2x.png in Resources */,
+				AA40733C1F7F42F400F93569 /* AGLKSkyboxShader.fsh in Resources */,
+				AA40733D1F7F42F400F93569 /* AGLKSkyboxShader.vsh in Resources */,
+				AA40733E1F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.fsh in Resources */,
+				AA40731E1F7E868400F93569 /* Main.storyboard in Resources */,
+				AA40733F1F7F42F400F93569 /* AGLKTextureMatrix2PointLightShader.vsh in Resources */,
+				AA40734A1F7F433A00F93569 /* RadiusSelectionTool.png in Resources */,
+				AA40733B1F7F42F400F93569 /* AGLKPointParticleShader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA40730F1F7E868400F93569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA40735F1F7F44B000F93569 /* SceneMesh.m in Sources */,
+				AA40735E1F7F44B000F93569 /* SceneAnimatedMesh.m in Sources */,
+				AA4073311F7F42C700F93569 /* AGLKContext.m in Sources */,
+				AA40731B1F7E868400F93569 /* ViewController.m in Sources */,
+				AA4073661F7F478E00F93569 /* SceneCanLightModel.m in Sources */,
+				AA4073321F7F42C700F93569 /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				AA4073261F7E868400F93569 /* main.m in Sources */,
+				AA4073601F7F44B000F93569 /* SceneModel.m in Sources */,
+				AA4073631F7F456D00F93569 /* AGLKTextureTransformBaseEffect.m in Sources */,
+				AA4073181F7E868400F93569 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA40731C1F7E868400F93569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA40731D1F7E868400F93569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA4073211F7E868400F93569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4073221F7E868400F93569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA4073271F7E868400F93569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA4073281F7E868400F93569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA40732A1F7E868400F93569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OPENGLES_CH6_3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.gomefinance.com.cn.OPENGLES-CH6-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA40732B1F7E868400F93569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OPENGLES_CH6_3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.gomefinance.com.cn.OPENGLES-CH6-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA40730E1F7E868400F93569 /* Build configuration list for PBXProject "OPENGLES_CH6_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4073271F7E868400F93569 /* Debug */,
+				AA4073281F7E868400F93569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4073291F7E868400F93569 /* Build configuration list for PBXNativeTarget "OPENGLES_CH6_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA40732A1F7E868400F93569 /* Debug */,
+				AA40732B1F7E868400F93569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA40730B1F7E868400F93569 /* Project object */;
+}
