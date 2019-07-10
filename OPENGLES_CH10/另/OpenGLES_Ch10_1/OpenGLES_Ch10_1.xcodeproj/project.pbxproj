@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD41AE61FA3593100C79D26 /* OpenGLES_Ch10_1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41AE51FA3593100C79D26 /* OpenGLES_Ch10_1AppDelegate.m */; };
+		AAD41AE91FA3593100C79D26 /* OpenGLES_Ch10_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41AE81FA3593100C79D26 /* OpenGLES_Ch10_1ViewController.m */; };
+		AAD41AEE1FA3593100C79D26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD41AED1FA3593100C79D26 /* Assets.xcassets */; };
+		AAD41AF11FA3593100C79D26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD41AEF1FA3593100C79D26 /* LaunchScreen.storyboard */; };
+		AAD41AF41FA3593100C79D26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41AF31FA3593100C79D26 /* main.m */; };
+		AAD41AFB1FA359C700C79D26 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD41AFA1FA359C600C79D26 /* MainStoryboard_iPhone.storyboard */; };
+		AAD41B591FA35E5300C79D26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B541FA35E5300C79D26 /* Default-568h@2x.png */; };
+		AAD41B5A1FA35E5300C79D26 /* OpenGL_ES_for_iOS_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B551FA35E5300C79D26 /* OpenGL_ES_for_iOS_114x114.png */; };
+		AAD41B5B1FA35E5300C79D26 /* OpenGL_ES_for_iOS_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B561FA35E5300C79D26 /* OpenGL_ES_for_iOS_57x57.png */; };
+		AAD41B5C1FA35E5300C79D26 /* OpenGL_ES_for_iOS_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B571FA35E5300C79D26 /* OpenGL_ES_for_iOS_72x72.png */; };
+		AAD41B5D1FA35E5300C79D26 /* trail.binary in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B581FA35E5300C79D26 /* trail.binary */; };
+		AAD41B721FA35E9000C79D26 /* AGLKCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B611FA35E9000C79D26 /* AGLKCollision.m */; };
+		AAD41B731FA35E9000C79D26 /* AGLKFrustum.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B631FA35E9000C79D26 /* AGLKFrustum.m */; };
+		AAD41B741FA35E9000C79D26 /* TEModelPlacement.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B661FA35E9000C79D26 /* TEModelPlacement.m */; };
+		AAD41B751FA35E9000C79D26 /* TETerrain.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B681FA35E9000C79D26 /* TETerrain.m */; };
+		AAD41B761FA35E9000C79D26 /* OpenGLES_Ch10_1.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B691FA35E9000C79D26 /* OpenGLES_Ch10_1.xcdatamodel */; };
+		AAD41B771FA35E9000C79D26 /* TETerrain+modelAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B6B1FA35E9000C79D26 /* TETerrain+modelAdditions.m */; };
+		AAD41B781FA35E9000C79D26 /* UtilityMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B6D1FA35E9000C79D26 /* UtilityMesh.m */; };
+		AAD41B791FA35E9000C79D26 /* UtilityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B6F1FA35E9000C79D26 /* UtilityModel.m */; };
+		AAD41B7A1FA35E9000C79D26 /* UtilityTextureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B711FA35E9000C79D26 /* UtilityTextureInfo.m */; };
+		AAD41B991FA35F0000C79D26 /* UtilityModelShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B7D1FA35F0000C79D26 /* UtilityModelShader.fsh */; };
+		AAD41B9A1FA35F0000C79D26 /* UtilityModelShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B7E1FA35F0000C79D26 /* UtilityModelShader.vsh */; };
+		AAD41B9B1FA35F0000C79D26 /* UtilityPickTerrainShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B7F1FA35F0000C79D26 /* UtilityPickTerrainShader.fsh */; };
+		AAD41B9C1FA35F0000C79D26 /* UtilityPickTerrainShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B801FA35F0000C79D26 /* UtilityPickTerrainShader.vsh */; };
+		AAD41B9D1FA35F0000C79D26 /* UtilityTerrainShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B811FA35F0000C79D26 /* UtilityTerrainShader.fsh */; };
+		AAD41B9E1FA35F0000C79D26 /* UtilityTerrainShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AAD41B821FA35F0000C79D26 /* UtilityTerrainShader.vsh */; };
+		AAD41B9F1FA35F0000C79D26 /* TETerrain+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B841FA35F0000C79D26 /* TETerrain+viewAdditions.m */; };
+		AAD41BA01FA35F0000C79D26 /* TETerrainTile.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B861FA35F0000C79D26 /* TETerrainTile.m */; };
+		AAD41BA11FA35F0000C79D26 /* UtilityCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B881FA35F0000C79D26 /* UtilityCamera.m */; };
+		AAD41BA21FA35F0000C79D26 /* UtilityEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B8A1FA35F0000C79D26 /* UtilityEffect.m */; };
+		AAD41BA31FA35F0000C79D26 /* UtilityMesh+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B8C1FA35F0000C79D26 /* UtilityMesh+viewAdditions.m */; };
+		AAD41BA41FA35F0000C79D26 /* UtilityModel+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B8E1FA35F0000C79D26 /* UtilityModel+viewAdditions.m */; };
+		AAD41BA51FA35F0000C79D26 /* UtilityModelEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B901FA35F0000C79D26 /* UtilityModelEffect.m */; };
+		AAD41BA61FA35F0000C79D26 /* UtilityModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B921FA35F0000C79D26 /* UtilityModelManager.m */; };
+		AAD41BA71FA35F0000C79D26 /* UtilityPickTerrainEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B941FA35F0000C79D26 /* UtilityPickTerrainEffect.m */; };
+		AAD41BA81FA35F0000C79D26 /* UtilityTerrainEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B961FA35F0000C79D26 /* UtilityTerrainEffect.m */; };
+		AAD41BA91FA35F0000C79D26 /* UtilityTextureInfo+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD41B981FA35F0000C79D26 /* UtilityTextureInfo+viewAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAD41AE11FA3593100C79D26 /* OpenGLES_Ch10_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLES_Ch10_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD41AE41FA3593100C79D26 /* OpenGLES_Ch10_1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLES_Ch10_1AppDelegate.h; sourceTree = "<group>"; };
+		AAD41AE51FA3593100C79D26 /* OpenGLES_Ch10_1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLES_Ch10_1AppDelegate.m; sourceTree = "<group>"; };
+		AAD41AE71FA3593100C79D26 /* OpenGLES_Ch10_1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLES_Ch10_1ViewController.h; sourceTree = "<group>"; };
+		AAD41AE81FA3593100C79D26 /* OpenGLES_Ch10_1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLES_Ch10_1ViewController.m; sourceTree = "<group>"; };
+		AAD41AED1FA3593100C79D26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD41AF01FA3593100C79D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD41AF21FA3593100C79D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD41AF31FA3593100C79D26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAD41AFA1FA359C600C79D26 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		AAD41B541FA35E5300C79D26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AAD41B551FA35E5300C79D26 /* OpenGL_ES_for_iOS_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_114x114.png; sourceTree = "<group>"; };
+		AAD41B561FA35E5300C79D26 /* OpenGL_ES_for_iOS_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_57x57.png; sourceTree = "<group>"; };
+		AAD41B571FA35E5300C79D26 /* OpenGL_ES_for_iOS_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenGL_ES_for_iOS_72x72.png; sourceTree = "<group>"; };
+		AAD41B581FA35E5300C79D26 /* trail.binary */ = {isa = PBXFileReference; lastKnownFileType = file; path = trail.binary; sourceTree = "<group>"; };
+		AAD41B5F1FA35E9000C79D26 /* AGLKAxisAllignedBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKAxisAllignedBoundingBox.h; sourceTree = "<group>"; };
+		AAD41B601FA35E9000C79D26 /* AGLKCollision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKCollision.h; sourceTree = "<group>"; };
+		AAD41B611FA35E9000C79D26 /* AGLKCollision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKCollision.m; sourceTree = "<group>"; };
+		AAD41B621FA35E9000C79D26 /* AGLKFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKFrustum.h; sourceTree = "<group>"; };
+		AAD41B631FA35E9000C79D26 /* AGLKFrustum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKFrustum.m; sourceTree = "<group>"; };
+		AAD41B651FA35E9000C79D26 /* TEModelPlacement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEModelPlacement.h; sourceTree = "<group>"; };
+		AAD41B661FA35E9000C79D26 /* TEModelPlacement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEModelPlacement.m; sourceTree = "<group>"; };
+		AAD41B671FA35E9000C79D26 /* TETerrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETerrain.h; sourceTree = "<group>"; };
+		AAD41B681FA35E9000C79D26 /* TETerrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETerrain.m; sourceTree = "<group>"; };
+		AAD41B691FA35E9000C79D26 /* OpenGLES_Ch10_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenGLES_Ch10_1.xcdatamodel; sourceTree = "<group>"; };
+		AAD41B6A1FA35E9000C79D26 /* TETerrain+modelAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TETerrain+modelAdditions.h"; sourceTree = "<group>"; };
+		AAD41B6B1FA35E9000C79D26 /* TETerrain+modelAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TETerrain+modelAdditions.m"; sourceTree = "<group>"; };
+		AAD41B6C1FA35E9000C79D26 /* UtilityMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMesh.h; sourceTree = "<group>"; };
+		AAD41B6D1FA35E9000C79D26 /* UtilityMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityMesh.m; sourceTree = "<group>"; };
+		AAD41B6E1FA35E9000C79D26 /* UtilityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityModel.h; sourceTree = "<group>"; };
+		AAD41B6F1FA35E9000C79D26 /* UtilityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityModel.m; sourceTree = "<group>"; };
+		AAD41B701FA35E9000C79D26 /* UtilityTextureInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityTextureInfo.h; sourceTree = "<group>"; };
+		AAD41B711FA35E9000C79D26 /* UtilityTextureInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityTextureInfo.m; sourceTree = "<group>"; };
+		AAD41B7D1FA35F0000C79D26 /* UtilityModelShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityModelShader.fsh; sourceTree = "<group>"; };
+		AAD41B7E1FA35F0000C79D26 /* UtilityModelShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityModelShader.vsh; sourceTree = "<group>"; };
+		AAD41B7F1FA35F0000C79D26 /* UtilityPickTerrainShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityPickTerrainShader.fsh; sourceTree = "<group>"; };
+		AAD41B801FA35F0000C79D26 /* UtilityPickTerrainShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityPickTerrainShader.vsh; sourceTree = "<group>"; };
+		AAD41B811FA35F0000C79D26 /* UtilityTerrainShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityTerrainShader.fsh; sourceTree = "<group>"; };
+		AAD41B821FA35F0000C79D26 /* UtilityTerrainShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityTerrainShader.vsh; sourceTree = "<group>"; };
+		AAD41B831FA35F0000C79D26 /* TETerrain+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TETerrain+viewAdditions.h"; sourceTree = "<group>"; };
+		AAD41B841FA35F0000C79D26 /* TETerrain+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TETerrain+viewAdditions.m"; sourceTree = "<group>"; };
+		AAD41B851FA35F0000C79D26 /* TETerrainTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETerrainTile.h; sourceTree = "<group>"; };
+		AAD41B861FA35F0000C79D26 /* TETerrainTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETerrainTile.m; sourceTree = "<group>"; };
+		AAD41B871FA35F0000C79D26 /* UtilityCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityCamera.h; sourceTree = "<group>"; };
+		AAD41B881FA35F0000C79D26 /* UtilityCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityCamera.m; sourceTree = "<group>"; };
+		AAD41B891FA35F0000C79D26 /* UtilityEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityEffect.h; sourceTree = "<group>"; };
+		AAD41B8A1FA35F0000C79D26 /* UtilityEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityEffect.m; sourceTree = "<group>"; };
+		AAD41B8B1FA35F0000C79D26 /* UtilityMesh+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityMesh+viewAdditions.h"; sourceTree = "<group>"; };
+		AAD41B8C1FA35F0000C79D26 /* UtilityMesh+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityMesh+viewAdditions.m"; sourceTree = "<group>"; };
+		AAD41B8D1FA35F0000C79D26 /* UtilityModel+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityModel+viewAdditions.h"; sourceTree = "<group>"; };
+		AAD41B8E1FA35F0000C79D26 /* UtilityModel+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityModel+viewAdditions.m"; sourceTree = "<group>"; };
+		AAD41B8F1FA35F0000C79D26 /* UtilityModelEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityModelEffect.h; sourceTree = "<group>"; };
+		AAD41B901FA35F0000C79D26 /* UtilityModelEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityModelEffect.m; sourceTree = "<group>"; };
+		AAD41B911FA35F0000C79D26 /* UtilityModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityModelManager.h; sourceTree = "<group>"; };
+		AAD41B921FA35F0000C79D26 /* UtilityModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityModelManager.m; sourceTree = "<group>"; };
+		AAD41B931FA35F0000C79D26 /* UtilityPickTerrainEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityPickTerrainEffect.h; sourceTree = "<group>"; };
+		AAD41B941FA35F0000C79D26 /* UtilityPickTerrainEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityPickTerrainEffect.m; sourceTree = "<group>"; };
+		AAD41B951FA35F0000C79D26 /* UtilityTerrainEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityTerrainEffect.h; sourceTree = "<group>"; };
+		AAD41B961FA35F0000C79D26 /* UtilityTerrainEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityTerrainEffect.m; sourceTree = "<group>"; };
+		AAD41B971FA35F0000C79D26 /* UtilityTextureInfo+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityTextureInfo+viewAdditions.h"; sourceTree = "<group>"; };
+		AAD41B981FA35F0000C79D26 /* UtilityTextureInfo+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityTextureInfo+viewAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD41ADE1FA3593100C79D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD41AD81FA3593100C79D26 = {
+			isa = PBXGroup;
+			children = (
+				AAD41AE31FA3593100C79D26 /* OpenGLES_Ch10_1 */,
+				AAD41AE21FA3593100C79D26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD41AE21FA3593100C79D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD41AE11FA3593100C79D26 /* OpenGLES_Ch10_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD41AE31FA3593100C79D26 /* OpenGLES_Ch10_1 */ = {
+			isa = PBXGroup;
+			children = (
+				AAD41B7B1FA35F0000C79D26 /* view */,
+				AAD41B5E1FA35E9000C79D26 /* model */,
+				AAD41B531FA35E5300C79D26 /* resources */,
+				AAD41AE41FA3593100C79D26 /* OpenGLES_Ch10_1AppDelegate.h */,
+				AAD41AE51FA3593100C79D26 /* OpenGLES_Ch10_1AppDelegate.m */,
+				AAD41AE71FA3593100C79D26 /* OpenGLES_Ch10_1ViewController.h */,
+				AAD41AE81FA3593100C79D26 /* OpenGLES_Ch10_1ViewController.m */,
+				AAD41AFA1FA359C600C79D26 /* MainStoryboard_iPhone.storyboard */,
+				AAD41AED1FA3593100C79D26 /* Assets.xcassets */,
+				AAD41AEF1FA3593100C79D26 /* LaunchScreen.storyboard */,
+				AAD41AF21FA3593100C79D26 /* Info.plist */,
+				AAD41AF31FA3593100C79D26 /* main.m */,
+			);
+			path = OpenGLES_Ch10_1;
+			sourceTree = "<group>";
+		};
+		AAD41B531FA35E5300C79D26 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAD41B541FA35E5300C79D26 /* Default-568h@2x.png */,
+				AAD41B551FA35E5300C79D26 /* OpenGL_ES_for_iOS_114x114.png */,
+				AAD41B561FA35E5300C79D26 /* OpenGL_ES_for_iOS_57x57.png */,
+				AAD41B571FA35E5300C79D26 /* OpenGL_ES_for_iOS_72x72.png */,
+				AAD41B581FA35E5300C79D26 /* trail.binary */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		AAD41B5E1FA35E9000C79D26 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AAD41B5F1FA35E9000C79D26 /* AGLKAxisAllignedBoundingBox.h */,
+				AAD41B601FA35E9000C79D26 /* AGLKCollision.h */,
+				AAD41B611FA35E9000C79D26 /* AGLKCollision.m */,
+				AAD41B621FA35E9000C79D26 /* AGLKFrustum.h */,
+				AAD41B631FA35E9000C79D26 /* AGLKFrustum.m */,
+				AAD41B641FA35E9000C79D26 /* Generated */,
+				AAD41B691FA35E9000C79D26 /* OpenGLES_Ch10_1.xcdatamodel */,
+				AAD41B6A1FA35E9000C79D26 /* TETerrain+modelAdditions.h */,
+				AAD41B6B1FA35E9000C79D26 /* TETerrain+modelAdditions.m */,
+				AAD41B6C1FA35E9000C79D26 /* UtilityMesh.h */,
+				AAD41B6D1FA35E9000C79D26 /* UtilityMesh.m */,
+				AAD41B6E1FA35E9000C79D26 /* UtilityModel.h */,
+				AAD41B6F1FA35E9000C79D26 /* UtilityModel.m */,
+				AAD41B701FA35E9000C79D26 /* UtilityTextureInfo.h */,
+				AAD41B711FA35E9000C79D26 /* UtilityTextureInfo.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AAD41B641FA35E9000C79D26 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				AAD41B651FA35E9000C79D26 /* TEModelPlacement.h */,
+				AAD41B661FA35E9000C79D26 /* TEModelPlacement.m */,
+				AAD41B671FA35E9000C79D26 /* TETerrain.h */,
+				AAD41B681FA35E9000C79D26 /* TETerrain.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		AAD41B7B1FA35F0000C79D26 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AAD41B7C1FA35F0000C79D26 /* shaders */,
+				AAD41B831FA35F0000C79D26 /* TETerrain+viewAdditions.h */,
+				AAD41B841FA35F0000C79D26 /* TETerrain+viewAdditions.m */,
+				AAD41B851FA35F0000C79D26 /* TETerrainTile.h */,
+				AAD41B861FA35F0000C79D26 /* TETerrainTile.m */,
+				AAD41B871FA35F0000C79D26 /* UtilityCamera.h */,
+				AAD41B881FA35F0000C79D26 /* UtilityCamera.m */,
+				AAD41B891FA35F0000C79D26 /* UtilityEffect.h */,
+				AAD41B8A1FA35F0000C79D26 /* UtilityEffect.m */,
+				AAD41B8B1FA35F0000C79D26 /* UtilityMesh+viewAdditions.h */,
+				AAD41B8C1FA35F0000C79D26 /* UtilityMesh+viewAdditions.m */,
+				AAD41B8D1FA35F0000C79D26 /* UtilityModel+viewAdditions.h */,
+				AAD41B8E1FA35F0000C79D26 /* UtilityModel+viewAdditions.m */,
+				AAD41B8F1FA35F0000C79D26 /* UtilityModelEffect.h */,
+				AAD41B901FA35F0000C79D26 /* UtilityModelEffect.m */,
+				AAD41B911FA35F0000C79D26 /* UtilityModelManager.h */,
+				AAD41B921FA35F0000C79D26 /* UtilityModelManager.m */,
+				AAD41B931FA35F0000C79D26 /* UtilityPickTerrainEffect.h */,
+				AAD41B941FA35F0000C79D26 /* UtilityPickTerrainEffect.m */,
+				AAD41B951FA35F0000C79D26 /* UtilityTerrainEffect.h */,
+				AAD41B961FA35F0000C79D26 /* UtilityTerrainEffect.m */,
+				AAD41B971FA35F0000C79D26 /* UtilityTextureInfo+viewAdditions.h */,
+				AAD41B981FA35F0000C79D26 /* UtilityTextureInfo+viewAdditions.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AAD41B7C1FA35F0000C79D26 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				AAD41B7D1FA35F0000C79D26 /* UtilityModelShader.fsh */,
+				AAD41B7E1FA35F0000C79D26 /* UtilityModelShader.vsh */,
+				AAD41B7F1FA35F0000C79D26 /* UtilityPickTerrainShader.fsh */,
+				AAD41B801FA35F0000C79D26 /* UtilityPickTerrainShader.vsh */,
+				AAD41B811FA35F0000C79D26 /* UtilityTerrainShader.fsh */,
+				AAD41B821FA35F0000C79D26 /* UtilityTerrainShader.vsh */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD41AE01FA3593100C79D26 /* OpenGLES_Ch10_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD41AF71FA3593100C79D26 /* Build configuration list for PBXNativeTarget "OpenGLES_Ch10_1" */;
+			buildPhases = (
+				AAD41ADD1FA3593100C79D26 /* Sources */,
+				AAD41ADE1FA3593100C79D26 /* Frameworks */,
+				AAD41ADF1FA3593100C79D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLES_Ch10_1;
+			productName = OpenGLES_Ch10_1;
+			productReference = AAD41AE11FA3593100C79D26 /* OpenGLES_Ch10_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD41AD91FA3593100C79D26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = gomeguomingyue;
+				TargetAttributes = {
+					AAD41AE01FA3593100C79D26 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAD41ADC1FA3593100C79D26 /* Build configuration list for PBXProject "OpenGLES_Ch10_1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD41AD81FA3593100C79D26;
+			productRefGroup = AAD41AE21FA3593100C79D26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD41AE01FA3593100C79D26 /* OpenGLES_Ch10_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD41ADF1FA3593100C79D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD41B991FA35F0000C79D26 /* UtilityModelShader.fsh in Resources */,
+				AAD41AFB1FA359C700C79D26 /* MainStoryboard_iPhone.storyboard in Resources */,
+				AAD41B9D1FA35F0000C79D26 /* UtilityTerrainShader.fsh in Resources */,
+				AAD41B5B1FA35E5300C79D26 /* OpenGL_ES_for_iOS_57x57.png in Resources */,
+				AAD41B5C1FA35E5300C79D26 /* OpenGL_ES_for_iOS_72x72.png in Resources */,
+				AAD41B5D1FA35E5300C79D26 /* trail.binary in Resources */,
+				AAD41B9A1FA35F0000C79D26 /* UtilityModelShader.vsh in Resources */,
+				AAD41B591FA35E5300C79D26 /* Default-568h@2x.png in Resources */,
+				AAD41B5A1FA35E5300C79D26 /* OpenGL_ES_for_iOS_114x114.png in Resources */,
+				AAD41AF11FA3593100C79D26 /* LaunchScreen.storyboard in Resources */,
+				AAD41AEE1FA3593100C79D26 /* Assets.xcassets in Resources */,
+				AAD41B9E1FA35F0000C79D26 /* UtilityTerrainShader.vsh in Resources */,
+				AAD41B9C1FA35F0000C79D26 /* UtilityPickTerrainShader.vsh in Resources */,
+				AAD41B9B1FA35F0000C79D26 /* UtilityPickTerrainShader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD41ADD1FA3593100C79D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD41B7A1FA35E9000C79D26 /* UtilityTextureInfo.m in Sources */,
+				AAD41BA41FA35F0000C79D26 /* UtilityModel+viewAdditions.m in Sources */,
+				AAD41BA31FA35F0000C79D26 /* UtilityMesh+viewAdditions.m in Sources */,
+				AAD41BA91FA35F0000C79D26 /* UtilityTextureInfo+viewAdditions.m in Sources */,
+				AAD41B791FA35E9000C79D26 /* UtilityModel.m in Sources */,
+				AAD41B751FA35E9000C79D26 /* TETerrain.m in Sources */,
+				AAD41B731FA35E9000C79D26 /* AGLKFrustum.m in Sources */,
+				AAD41B771FA35E9000C79D26 /* TETerrain+modelAdditions.m in Sources */,
+				AAD41BA51FA35F0000C79D26 /* UtilityModelEffect.m in Sources */,
+				AAD41B9F1FA35F0000C79D26 /* TETerrain+viewAdditions.m in Sources */,
+				AAD41B781FA35E9000C79D26 /* UtilityMesh.m in Sources */,
+				AAD41AE91FA3593100C79D26 /* OpenGLES_Ch10_1ViewController.m in Sources */,
+				AAD41BA71FA35F0000C79D26 /* UtilityPickTerrainEffect.m in Sources */,
+				AAD41B721FA35E9000C79D26 /* AGLKCollision.m in Sources */,
+				AAD41BA81FA35F0000C79D26 /* UtilityTerrainEffect.m in Sources */,
+				AAD41BA61FA35F0000C79D26 /* UtilityModelManager.m in Sources */,
+				AAD41AF41FA3593100C79D26 /* main.m in Sources */,
+				AAD41BA01FA35F0000C79D26 /* TETerrainTile.m in Sources */,
+				AAD41BA21FA35F0000C79D26 /* UtilityEffect.m in Sources */,
+				AAD41B741FA35E9000C79D26 /* TEModelPlacement.m in Sources */,
+				AAD41BA11FA35F0000C79D26 /* UtilityCamera.m in Sources */,
+				AAD41AE61FA3593100C79D26 /* OpenGLES_Ch10_1AppDelegate.m in Sources */,
+				AAD41B761FA35E9000C79D26 /* OpenGLES_Ch10_1.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAD41AEF1FA3593100C79D26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD41AF01FA3593100C79D26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD41AF51FA3593100C79D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAD41AF61FA3593100C79D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD41AF81FA3593100C79D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OpenGLES_Ch10_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.gomefinance.com.cn.OpenGLES-Ch10-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD41AF91FA3593100C79D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9UD67WPFX;
+				INFOPLIST_FILE = OpenGLES_Ch10_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.gomefinance.com.cn.OpenGLES-Ch10-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD41ADC1FA3593100C79D26 /* Build configuration list for PBXProject "OpenGLES_Ch10_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD41AF51FA3593100C79D26 /* Debug */,
+				AAD41AF61FA3593100C79D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD41AF71FA3593100C79D26 /* Build configuration list for PBXNativeTarget "OpenGLES_Ch10_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD41AF81FA3593100C79D26 /* Debug */,
+				AAD41AF91FA3593100C79D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD41AD91FA3593100C79D26 /* Project object */;
+}
